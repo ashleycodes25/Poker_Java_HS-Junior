@@ -10,6 +10,6 @@ The attatched files contain the code I submitted for this program.
 - Use an enum for the card suits.
 - Use a stack data structure for the card deck.
 
-**Key Take Aways**
+**Key Take Aways:**
 - Learned how to use Java enums.
 - Practiced using Java data structures such as stacks, arraylists, and maps.
