@@ -86,18 +86,6 @@ public class Main{
 
     public static void replace(String cardIndexes, Player p, Deck d){
         int temp;
-        /*
-        for(int i = 0; i < cardIndexes.length(); i++){
-            if((!Character.isDigit(cardIndexes.charAt(i))) || cardIndexes.charAt(i) > 4){
-                System.out.println("Please enter in a valid index or series of indexes!");
-                System.out.println("Ex: 124");
-                replace(scan.nextLine(), p, d);
-            }
-            temp = Integer.parseInt(cardIndexes.substring(i, i+1));
-            p.getHand().remove(temp);
-            p.getHand().add(temp, d.getDeck().pop());
-        }
-        */
         for(int i = 0; i < cardIndexes.length(); i++){
             temp = Integer.parseInt(cardIndexes.substring(i, i+1));
             p.getHand().remove(temp);
